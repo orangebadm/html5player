@@ -1,0 +1,133 @@
+*{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+}
+#content{
+	width:100%;
+	margin:0px auto;
+	height:665px;
+	background: url("image/2.jpg") no-repeat center ;
+	background-size:cover;
+	overflow:hidden;
+}
+#container{
+	width:700px;
+	margin:80px auto;
+
+}
+.video{
+	width:100%;
+	background:-webkit-linear-gradient(top,#220826,#783B49,#4F233E,#220826);
+	border-radius:10px;
+	padding:10px 0px;
+	border:1px dotted #FC9576;
+	box-shadow:5px 5px 30px #330E41;
+	position: relative;
+}
+video{
+	display:block;
+	width:680px;
+	margin:0px auto;
+	border:none;
+	/*margin-top: 10px;*/
+	border-radius:10px;
+
+}
+
+.bar{
+	width: 95%;
+	height:40px;
+	background:-webkit-linear-gradient(left,#220826,#4F233E,#783B49,#783B49,#4F233E,#220826);
+	position:absolute;
+	z-index:99;
+	bottom:20px;
+	left:16px;
+	border-radius:5px;
+	box-shadow:5px 5px 30px #1E0734;
+}
+.control{
+	width:95%;
+	height:40px;
+	line-height:40px;
+	margin:0px auto;
+	display:flex;
+	color:white;
+}
+.control>div{
+	padding:0px 10px;
+}
+.control>div:nth-child(2){
+	flex:1;
+}
+.play{
+	width:30px;
+	height:40px;
+}
+.time span{
+	display:inline-block;
+	width:50px;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	border:1px solid black;
+}
+.line{
+	width:100%;
+	height:10px;
+	margin: 0px auto;
+	background: #170524;
+	position: absolute;
+	top:-15px;
+	box-shadow:1px 1px 1px #210532;
+	/*border:1px solid #250A28;*/
+}
+.ball{
+	width:10px;
+	height:12px;
+	background:white;
+	position:absolute;
+	left:0px;
+	z-index: 99;
+}
+.progress{
+	width:0px;
+	height:10px;
+	border:1px solid #FC9576;
+	background: -webkit-linear-gradient(left,#F9CBB7,#FEA77D,#3B1442);
+	position: absolute;
+}
+.colume>i,.colume>.colume_box{
+	float:left;
+}
+.colume_box{
+	margin-top: 10px;
+	margin-left: 10px;
+	background: white;
+	border-radius: 5px;
+	/*outline: 5px solie red;*/
+	padding:5px 5px;
+	border:1px solid black;
+	background: -webkit-linear-gradient(top,rgba(250,196,192,0.8),rgba(124,69,86,0.8));
+}
+.colume_innerbox{
+	width:100px;
+	height:5px;
+	border: 1px solid black;
+	background: black;
+	position: relative;
+}
+.colume_ball{
+	width:5px;
+	height:5px;
+	background: white;
+	position: absolute;
+	z-index: 10;
+	left:95px;
+}
+.colume_line{
+	width:99px;
+	height:5px;
+	position: absolute;
+	background: -webkit-linear-gradient(top,#F19D79,#F19D79,#4D2147,#4D2147);
+}
